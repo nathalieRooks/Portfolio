@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+h2{
+  margin-bottom: 5px;
+}
+
+/* Navbar header */
+.main-header{
+  background-color: rgb(127, 56, 193);
+  color: white;
+  padding: 4px;
+}
+
+.top-navbar{
+    background-color: rgb(160, 90, 226);
+    overflow: hidden;
+}
+
+.top-navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .top-navbar a:hover{
+    background-color: rgb(155, 75, 229);
+  }
+
+  /* Footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center a;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(160, 90, 226);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.bottom-navbar{
+  display: flex;
+  gap: 15px;
+}
+
+.bottom-navbar a{
+  color: #f2f2f2;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bottom-text{
+  padding-right: 30px;
+}
+
+
+/* About me pagina */
+.about-me-main{
+  display: flex;
+  flex-direction: column;
+}
+.about-me-skills{
+  padding: 5%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-me-skills table{
+  width: 90%;
+  margin: 5px;
+}
+
+.about-me-skills td, th{
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+}
+.about-me-name{
+  padding: 5%;
+  flex-direction: row;
+}
+.about-me-foto{
+  width: 50%;
+  float: left;
+}
+
+.about-me-name img{
+  width: 200px;
+  display: block;
+  margin-left:auto ;
+  margin-right: auto;
+}
+
+.about-me-titel button,
+.projecten-keuzedelen button,
+.pk-fe-button button,
+.projecten-kwd button,
+.home-button,
+.popup-button,
+.display-container-button-right,
+.display-container-button-left{
+  margin: 4px 2px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(91, 85, 97);
+}
+
+.about-me-over-mij{
+  padding: 5%;
+}
+
+.about-me-over-mij h2{
+  text-align: center;
+}
+
+.about-me-titel{
+  float: right;
+  display: block;
+  margin-left:auto ;
+  margin-right: auto;
+
+}
+
+.about-me-video{
+  padding: 5%;
+}
+
+.about-me-video-video{
+  display: flex;
+  justify-content: center;
+}
+
+video{
+  margin: 10px;
+}
+
+/* Schoolprojecten */
+.projecten{
+  margin: 5%;
+}
+
+.projecten-school,
+.projecten-kwd,
+.projecten-keuzedelen{
+  padding: 5%;
+}
+
+.projecten-main{
+  display: flex;
+  flex-direction: column;
+}
+
+.projecten-kwd-tekst{
+  width: 50%;
+  float: left;
+}
+
+.projecten-kwd button{
+  float: right;
+}
+
+.projecten-kwd ul li{
+  list-style-type: disc;
+}
+
+/* Keuzedelen */
+.projecten-keuzedelen{
+  flex-direction: column;
+}
+.pk-fe-text{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.pk-fe-front{
+
+  width: 70%;
+  float: left;
+}
+
+
+.pk-fe-button{
+  float: right;
+}
+
+.pk-fe-sio{
+  float: left;
+}
+
+/* Pop-ups voor projecten */
+.popup{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content{
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.mySlides {
+  display:none;
+  width: 300px;
+}
+
+.mySlides:first-child{
+  display: block;
+}
+
+.popup-content{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.display-foto{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Contact */
+.contact-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5% ;
+  margin: 5%;
+}
+
+.contact-foto, .contact-list{
+  width: 48%;
+}
+
+.contact-foto{
+  float: left;
+}
+
+.contact-list{
+  float: right;
+}
+
+/* Home-page */
+.main-home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  height: max-content;
+}
+
+.home-foto, .home-tekst{
+  width: 48%;
+}
+
+.home-foto{
+  float: left;
+}
+
+.home-tekst{
+  float: right;
+}
+
+/* Stage */
+
+.stage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage-main{
+  padding-top:5%;
+}
+
+/* Gallery */
+
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+} 
+
+.slide.active{
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
